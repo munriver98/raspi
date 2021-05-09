@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-text_url="./mealdata.txt" # 파일 위치
+text_url="../RaspberryPiTemp-dispenser/mealdata.txt" # 파일 위치
 
 @app.route("/")
 def http_prepost_response():
